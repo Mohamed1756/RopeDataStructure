@@ -6,19 +6,11 @@ Excels in Insertions & Deletions
 
 
 Why Rope when we have string? 
+
 To append and concatenate strings. Less memory allocations. 
 Unlike arrays ropes do not require O(n) extra memory for copying operations. 
 
-Rope vs strings? 
-
-Function 	                  Rope 	   String 
-Destructive concatenation 	O(log n) 	O(n)
-Insert	                    O(log n)  O(n)
-Append	                    O(log n) 	O(n) / O(1)
-Delete	                    O(log n) 	O(n)
-
-
-
+The prefixTree:
 The numbers represent the weight of node / child node. Root weight comes from left most node. 
 
 Indexing. O(log n) 
